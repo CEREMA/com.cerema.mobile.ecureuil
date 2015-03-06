@@ -1,13 +1,13 @@
 {
     "namespace": "com.cerema.mobile.ecureuil",
-    "git": "",
-    "title": "com.cerema.mobile.ecureuil",
-    "description": "Package description goes here",
+    "git": "https://github.com/CEREMA/com.cerema.mobile.ecureuil.git",
+    "title": "Ecureuil",
+    "description": "Mobile ecureuil",
     "platform": "mobile",
     "uid": "8514fa01-af33-46ea-b75e-298e10a99190",
     "version": "1.00",
     "build": "0",
-    "copyright": "Copyright (c) 2015 By MOBILE",
+    "copyright": "Copyright (c) 2015 By CEREMA",
     "license": "BSD",
     "author": {
         "name": "XXX",
