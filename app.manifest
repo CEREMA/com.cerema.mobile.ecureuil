@@ -53,7 +53,7 @@
     },
     "splashscreen": {
         "background": "#FFFFFF",
-        "color": "orange",
+        "color": "red",
         "file": "app.png"
     },
     "plugins": [
