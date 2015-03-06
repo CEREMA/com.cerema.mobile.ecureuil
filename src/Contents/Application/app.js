@@ -36,11 +36,7 @@ Manifest = function()
 		
 		launch: function () 
 		{		
-			Ext.create('Ext.container.Viewport', {
-            layout: 'fit',
-            items: [
-			]
-			});
+
 		}
 		
 	});
