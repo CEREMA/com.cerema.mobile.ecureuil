@@ -16,6 +16,7 @@ Manifest = function()
 		appFolder: Ext.Loader.getPath('Contents'),	
 
 		controllers: Settings.CONTROLLERS,
+		autoCreateViewport : false,
 		
 		/*profiles: [
 			'Phone', 'Tablet'
