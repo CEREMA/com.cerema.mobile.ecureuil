@@ -19,6 +19,8 @@ App.view.define('main.VListAO', {
 							lastName: "Zucatti"
 						}
 					]
+				},{
+					autoLoad: true
 				}),
 				itemTpl: '<div class="contact">{firstName} {lastName}</div>',
 				onItemDisclosure: function(record, btn, index) {
