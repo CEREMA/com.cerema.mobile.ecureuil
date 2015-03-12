@@ -23,8 +23,8 @@ App.view.define('main.VListAO', {
 				itemTpl: '<div class="contact">{firstName} {lastName}</div>',
 				grouped: true,
 				onItemDisclosure: function(record, btn, index) {
-					ListDemo.detailPanel.update(record.data);
-					ListDemo.Viewport.setActiveItem('detailpanel');
+					/*ListDemo.detailPanel.update(record.data);
+					ListDemo.Viewport.setActiveItem('detailpanel');*/
 				}				
 			}
 		]
