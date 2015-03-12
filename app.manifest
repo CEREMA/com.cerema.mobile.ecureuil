@@ -30,7 +30,7 @@
             "name": "touch",
             "version": "2.4.0",
             "src": "http://cdn.sencha.io/touch/sencha-touch-{version}/sencha-touch-all-debug.js",
-            "res": "http://cdn.sencha.io/touch/sencha-touch-{version}/resources/css/sencha-touch.css"
+            "res": "http://cdn.sencha.io/touch/sencha-touch-{version}/resources/css/cupertino.css"
         },
         {
             "name": "jquery",
