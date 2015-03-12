@@ -3,7 +3,8 @@ App.controller.define('CMain', {
 	config : {
 	
 		views: [
-			"VMain"
+			"VMain",
+			"main.VListAO"
 		],
 		
 		models: [
