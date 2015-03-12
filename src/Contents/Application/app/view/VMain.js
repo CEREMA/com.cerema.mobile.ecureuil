@@ -29,7 +29,7 @@ App.view.define('VMain', {
 				},
 				items: [
 				{
-					xtype: 'container',
+					xtype: 'TListAO',
 					title: 'Tab 1',
 					iconCls: 'info'
 				},
