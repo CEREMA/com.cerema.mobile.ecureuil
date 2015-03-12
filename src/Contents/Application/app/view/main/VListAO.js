@@ -12,7 +12,7 @@ App.view.define('main.VListAO', {
 				store: App.store.create('App.AO.getAll',{
 					autoLoad: true
 				}),
-				itemTpl: '<div class="contact">{firstName} {lastName}</div>',
+				itemTpl: '<div class="contact">{Objet}</div>',
 				onItemDisclosure: function(record, btn, index) {
 					/*ListDemo.detailPanel.update(record.data);
 					ListDemo.Viewport.setActiveItem('detailpanel');*/
