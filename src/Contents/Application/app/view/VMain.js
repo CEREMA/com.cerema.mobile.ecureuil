@@ -12,55 +12,47 @@ App.view.define('VMain', {
 	config: {
 	
 		autoDestroy: true,
-		navigationBar: {
-			items: [
-
-			]				
-		},	
+		layout: {
+			type: 'fit'
+		},		
 		items: [
 			{
-				title: 'Ecureuil',
-				layout: 'fit',
+				xtype: 'titlebar',
+				docked: 'top',
+				title: 'Ecureuil'
+			},
+			{
+				xtype: 'tabpanel',
+				layout: {
+					animation: 'slide',
+					type: 'card'
+				},
 				items: [
 				{
-					xtype: 'titlebar',
-					docked: 'top',
-					title: 'Ecureuil'
+					xtype: 'container',
+					title: 'Tab 1',
+					iconCls: 'info'
 				},
 				{
-					xtype: 'tabpanel',
+					xtype: 'container',
+					title: 'Tab 2',
+					iconCls: 'info'
+				},
+				{
+					xtype: 'container',
+					title: 'Tab 3',
+					iconCls: 'info'
+				}
+				],
+				tabBar: {
+					docked: 'bottom',
 					layout: {
-						animation: 'slide',
-						type: 'card'
-					},
-					items: [
-					{
-						xtype: 'container',
-						title: 'Tab 1',
-						iconCls: 'info'
-					},
-					{
-						xtype: 'container',
-						title: 'Tab 2',
-						iconCls: 'info'
-					},
-					{
-						xtype: 'container',
-						title: 'Tab 3',
-						iconCls: 'info'
-					}
-					],
-					tabBar: {
-						docked: 'bottom',
-						layout: {
-							pack: 'center',
-							type: 'hbox'
-						}
+						pack: 'center',
+						type: 'hbox'
 					}
 				}
-				]
 			}
-		]
+		]			
 	}
 	
 });
