@@ -1,6 +1,6 @@
 App.view.define('VMain', {
 
-	extend: 'Ext.navigation.View',
+	extend: 'Ext.Container',
 	fullscreen: true,
 	
 	alias: "widget.VMain",
@@ -18,6 +18,10 @@ App.view.define('VMain', {
 			]				
 		},	
 		items: [
+			{
+				title: 'Ecureuil',
+				layout: 'fit',
+				items: [
 				{
 					xtype: 'titlebar',
 					docked: 'top',
@@ -54,6 +58,8 @@ App.view.define('VMain', {
 						}
 					}
 				}
+				]
+			}
 		]
 	}
 	
