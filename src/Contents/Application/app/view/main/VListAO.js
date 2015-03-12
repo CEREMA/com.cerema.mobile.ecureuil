@@ -5,6 +5,7 @@ App.view.define('main.VListAO', {
 	
 	config: {
 		title: "Appel d'offres",
+		layout: "fit",
 		items: [
 			{
 				xtype: "list",
