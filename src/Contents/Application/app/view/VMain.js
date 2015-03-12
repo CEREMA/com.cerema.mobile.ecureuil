@@ -18,10 +18,6 @@ App.view.define('VMain', {
 			]				
 		},	
 		items: [
-			{
-				title: 'Ecureuil',
-				layout: 'fit',
-				items: [
 				{
 					xtype: 'titlebar',
 					docked: 'top',
@@ -58,8 +54,6 @@ App.view.define('VMain', {
 						}
 					}
 				}
-				]
-			}
 		]
 	}
 	
