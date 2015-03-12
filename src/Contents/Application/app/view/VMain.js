@@ -30,7 +30,7 @@ App.view.define('VMain', {
 				items: [
 				{
 					xtype: 'TListAO',
-					title: 'Tab 1',
+					title: "Appels d'offres",
 					iconCls: 'info'
 				},
 				{
