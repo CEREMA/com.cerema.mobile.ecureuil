@@ -19,7 +19,7 @@ App.view.define('VMain', {
 		},	
 		items: [
 			{
-				title: 'BLANK Project Mobile',
+				title: 'Ecureuil',
 				layout: 'fit',
 				items: [
 					{
