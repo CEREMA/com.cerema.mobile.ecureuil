@@ -22,14 +22,45 @@ App.view.define('VMain', {
 				title: 'Ecureuil',
 				layout: 'fit',
 				items: [
+				{
+					xtype: 'titlebar',
+					docked: 'top',
+					title: 'Ecureuil'
+				},
+				{
+					xtype: 'tabpanel',
+					layout: {
+						animation: 'slide',
+						type: 'card'
+					},
+					items: [
 					{
-						html: 'Hello world'
+						xtype: 'container',
+						title: 'Tab 1',
+						iconCls: 'info'
+					},
+					{
+						xtype: 'container',
+						title: 'Tab 2',
+						iconCls: 'info'
+					},
+					{
+						xtype: 'container',
+						title: 'Tab 3',
+						iconCls: 'info'
 					}
+					],
+					tabBar: {
+						docked: 'bottom',
+						layout: {
+							pack: 'center',
+							type: 'hbox'
+						}
+					}
+				}
 				]
 			}
-		
-		]	
-		
+		]
 	}
 	
 });
