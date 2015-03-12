@@ -5,22 +5,11 @@ App.view.define('main.VListAO', {
 	
 	config: {
 		title: "Appel d'offres",
-		layout: "fit",
+		layout: "fit",	
 		items: [
 			{
 				xtype: "list",
-				store: App.store.create({
-					fields: [
-						"firstName",
-						"lastName"
-					],
-					data: [
-						{
-							firstName: "Stephane",
-							lastName: "Zucatti"
-						}
-					]
-				},{
+				store: App.store.create('App.AO.getAll',{
 					autoLoad: true
 				}),
 				itemTpl: '<div class="contact">{firstName} {lastName}</div>',
